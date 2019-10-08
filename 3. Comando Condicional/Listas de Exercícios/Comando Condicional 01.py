@@ -2,7 +2,7 @@
 
 a = 5
 b = 2
-if(a+b < 10):
+if(a + b < 10):
     c = a-b
 else:
     c = a+b
@@ -29,21 +29,21 @@ if (a + b > 10):
     c = a + 1
     b = c + 1
 else:
-    c = a – 1
-    b = c – 1
-    a = b – 1
+    c = a - 1
+    b = c - 1
+    a = b - 1
 
 # Programa 04
 
 a = 8
 b = a + 3
-c = b – 1
+c = b - 1
 if (c > 4):
     a = a + c
 else:
     a = a + b
-b = (2 * c) – a
-c = a – c
+b = (2 * c) - a
+c = a - c
 a = c / b
 
 # Programa 05
@@ -52,25 +52,25 @@ b = 5/2 + 6/4
 a = 3 + b
 if (a > 7):
     c = a + c
-    print(b – a)
+    print(b - a)
 elif (a == 7):
-    c = a – b
+    c = a - b
     print(2*c + 1)
 else:
     a = a + b
 
 # Programa 06
 
-a = – 5
+a = - 5
 b = 9
 if (a + b == 3):
     c = a + 7
-    d = b – 4
+    d = b - 4
 else:
     c = a + 2
-    d = b – 10
-a = –2 * a
-b = – b / c
+    d = b - 10
+a = - 2 * a
+b = - b / c
 c = c + 4
 d = d + c
 
@@ -85,10 +85,10 @@ if (a + b + c < 7):
     a = (a * c) + b
 else:
     b = 5 * c
-    c = a + b – 8
-    a = (2 * a) – 1
-b = b – (a + c)
-c = c – (a + b)
+    c = a + b - 8
+    a = (2 * a) - 1
+b = b - (a + c)
+c = c - (a + b)
 
 # Programa 08
 
@@ -124,55 +124,55 @@ else:
 
 c = 4
 b = c * 5/2
-a = c * b – b
+a = c * b - b
 if (b > a):
     if (c > b):
         d = a * 2
     elif (a > c):
-        d = 29 – a + b
+        d = 29 - a + b
 elif (a > b + c):
-    d = (b – c)/3
+    d = (b - c)/3
     print(a + d)
 else:
-    d = c – 9 + a
-a = a – (b + c + d)
+    d = c - 9 + a
+a = a - (b + c + d)
 
 # Programa 11
 
-d = 6**2 – 8
+d = 6**2 - 8
 if (d > 20):
     if (d < 25):
         a = d / 3
         print(a + d)
     elif (d > 28):
         a = d*5 + 1
-        print(a – d)
+        print(a - d)
     elif (d < 22):
         b = d + 1
-        print(b – 3)
+        print(b - 3)
     else:
         b = d / 7
         print(b**2)
-a = d – b
+a = d - b
 
 # Programa 12
 
 c = 7 + 5*1.2
-b = c – 4
+b = c - 4
 if (b > 9):
     if (c == 10):
         a = b + 3
     elif (b == 6):
         a = c*3
-        print(a – c)
+        print(a - c)
 elif (c >= 13):
     a = b + 1
 else:
     a = c / 7
     print(a**b)
 if (a < b):
-    a = c – b
-c = c – a
+    a = c - b
+c = c - a
 
 # Programa 13
 
@@ -180,13 +180,13 @@ b = 5
 if (b > 7):
     a = b + 4
     c = a * 2
-a = (b – 2) ** 3
+a = (b - 2) ** 3
 if (a < 15):
-    d = c – a
+    d = c - a
     print(a)
 elif (a > 29):
     if (b > 8):
-        d = b + c – 1
+        d = b + c - 1
     elif (b < 6):
         d = a * c
 else:
