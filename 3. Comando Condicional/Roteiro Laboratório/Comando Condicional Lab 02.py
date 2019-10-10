@@ -38,10 +38,10 @@ print("%.2f" % preco)
 jornal = [["mural", 200], ["o coreto", 235]]
 revista = [["meu lar", 180], ["sua mesa", 230]]
 desconto = 10 / 100
-preco = 0
+preco = 0.0
 
 item = str.lower(input("item desejado: "))
-duracaoAssinatura = str.lower(input("Duração em anos: "))
+duracaoAssinatura = int(input("Duração em anos: "))
 
 if (item == jornal[0][0]):
     preco = duracaoAssinatura * jornal[0][1]
@@ -69,14 +69,14 @@ quantLivros = int(input("Quantidade de livros: "))
 quantAlunos = int(input("Quantidade de alunos: "))
 conceito = quantLivros / quantAlunos
 
-if conceito <= conceitoA:
-    print("A")
+if conceito < conceitoD:
+    print("D")
+elif conceito <= conceitoC:
+    print("C")
 elif conceito <= conceitoB:
     print("B")
-elif conceito <= conceitoB:
-    print("C")
 else:
-    print("D")
+    print("A")
 
 # Quest 04
 
@@ -88,8 +88,8 @@ tempoGarantia = int(input("Garantia de quanto tempo? "))
 
 if (tempoGarantia == 1):
     preco = valorProduto * garantiaUm
-    valorProduto = valorProduto - preco
+    valorProduto = valorProduto + preco
 elif (tempoGarantia == 2):
     preco = valorProduto * garantiaDois
-    valorProduto = valorProduto - preco
+    valorProduto = valorProduto + preco
 print("%.2f" % valorProduto)
